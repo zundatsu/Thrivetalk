@@ -1,0 +1,616 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: grey;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: grey;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: white;
+  }
+
+body {
+    margin: 0;
+    margin-top: 6px;
+}
+
+header {
+    text-decoration: none;
+    background-image: url(/HTML/FIGMA/images/back1.png);
+    background-size: 73% 840px;
+    background-repeat: no-repeat;
+    height: 840px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Larsseit'; /*a name to be used later*/
+    src: url(/HTML/FIGMA/fonts/Larsseit.ttf); /*URL to font*/
+}
+
+.cap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 135px;
+    z-index: 1;
+}
+
+.cap_block {
+    z-index: 1;
+}
+
+.cap_logo {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.caphome {
+    border-bottom: 2px solid #22356f ;
+}
+
+.cap_text {
+    font-family: Larsseit;
+    line-height: 5em;
+    color: #22356f;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    text-decoration: none;    
+    transition: 0.2s;
+}
+
+.cap_button {
+    position: relative;
+    z-index: 1;
+    line-height: 5em;
+    font-family: Larsseit;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #62D0DF;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight:700;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.cap_button:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.cap_text:hover {
+    color: white;
+    background-color: #22356f;
+}
+
+.cap_logo:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.home{
+    height: 625px;
+    display: flex;
+}
+
+.home_text {
+    width: 480px;
+    height: 520px;
+    z-index: 1;
+}
+
+h1 {
+    font-family: Larsseit;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+}
+
+.home_desc {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    padding-top: 30px;
+}
+
+.home_b {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.b1 {
+    padding: 10px 30px 11px 30px;
+    background: #F9B640;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.b2 {
+    color: #FAB63E;
+    text-decoration: none;
+    padding-left: 45px;
+    transition: 0.2s;
+}
+
+.b1:hover {
+    color: #F9B640;
+    background-color: #F4F9E2;
+}
+
+.b2:hover {
+    transform: translateX(40px);
+}
+
+.back {
+    width: 480px;
+    height: 520px;
+}
+
+.home_pic {
+    position: relative;
+    top: -221px;
+    left: 214px;
+    width: 130%;
+    height: 130%;
+}
+
+.container1{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+}
+
+.infowhy {
+    height: 604px;
+    background: #62D0DF;
+}
+
+.infoblock {
+    width: 480px;
+}
+
+.infohead {
+    padding-top: 151px;
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.infohead1 {
+    padding-top: 75px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.infoheads {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.infopic {
+    position: relative;
+    left: 314px;
+}
+
+.aboutus {
+    height: 361px;
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: center;
+}
+
+.aboutus_1 {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    position: relative;
+    left: -304px;
+    height: 210px;
+    padding-top: 156px;
+}
+
+.aboutus_2 {
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    width: 592px;
+    height: 210px;
+    padding-top: 150px;
+}
+
+.intsec {
+    height: 115px;
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: center;
+}
+
+.intext {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    padding-top: 70px;
+}
+
+.menublock {
+    height: 360px;
+    max-width: 1440px;
+    display: flex;
+    width:100vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.menuopt {
+    justify-self: flex-start;
+    height: 360px;
+    width: 25%;
+    text-decoration: none;
+}
+
+.menutext {
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    margin-left: 52.5px;
+    margin-right: 52.5px;
+    margin-top: 72px;
+    padding-top: 23px;
+    border-top: 1px solid white;
+}
+
+.dot {
+    margin-right: 11px;
+    padding-bottom: 12px;
+}
+
+.color1 {
+    background-color: #FFE2DE;
+}
+
+.color2 {
+    background-color: #C4E769;
+}
+
+.color3 {
+    background-color: #62D0DF;
+}
+
+.color4 {
+    background-color: #0052C1;
+}
+
+.color5 {
+    background-color: #22356F;
+}
+
+.color6 {
+    background-color: #62D0DF;
+}
+
+.color7 {
+    background-color: #DEE1FF;
+}
+
+.color8 {
+    background-color: #8F00FF;
+}
+
+.menu3 {
+    height: 360px;
+    max-width: 1440px;
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.space {
+    height: 22px;
+}
+
+.row {
+    width: 100vw;
+    max-width: 1440px;
+    height: 240px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.textblock {
+    justify-self: flex-start;
+    width: 33.333333%;
+    text-decoration: none;
+}
+
+.headt {
+    font-family: Larsseit;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #22356F;
+    margin-left: 105px;
+    margin-right: 141px;
+    padding-top: 55px;
+}
+
+.desct {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: rgba(34, 53, 111, 0.5);
+    margin-left: 105px;
+    margin-right: 141px;
+    padding-top: 28px;
+}
+
+.section_alsoknow {
+    padding-top: 40px;
+    height: 800px;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.image_alsoknow {
+    position: relative;
+    left: -218px;
+}
+
+.image_also {
+    width:0px
+}
+
+.textblock_alsoknow {
+    padding-left: 400px;
+}
+
+.headt_alsoknow {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    padding-top: 103px;
+}
+
+.thrivetalk {
+    color: #62D0DF;
+}
+
+.desct_alsoknow {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+    padding-top: 225px;
+    font-weight: bolder;
+    max-width: 676px;
+}
+
+.button_alsoknow {
+    color: #FAB63E;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    margin-top: 152px;
+}
+
+.button_alsoknow:hover {
+    transform: translateX(40px);
+}
+
+.section_contact {
+    background-color: #22356F;
+    height: 800px;
+    display: flex;
+    margin: auto;
+}
+
+.headt_contact {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-top: 103px; 
+}
+
+.headt2_contact {
+    font-family: Larsseit;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-top: 230px;
+    padding-bottom: 75px;
+}
+
+.desct_contact {
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    max-width: 579px;
+}
+
+.button_contact {
+    color: #62D0DF;
+    text-decoration: none;
+    transition: 0.2s;
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    padding-top: 65px;
+}
+
+.button_contact:hover {
+    transform: translateX(40px);
+}
+
+.image_contact {
+    position: relative;
+    left: 260px;
+}
+
+.footer_info {
+    height: 380px;
+    display: flex;
+    margin: auto;
+    width: 100vw;
+    max-width: 2000px;
+}
+
+.textblock_footer {
+    width: 765px;
+    height: 208px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.row_f {
+    width: 33%;
+}
+
+.headf {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.descf {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+    width: 200px;
+}
+
+.spaceup {
+    padding-top: 20px;
+}
+
+.link {
+    color: #006DFF;
+    cursor: pointer;
+}
+
+.footer_end {
+    background-color: #62D0DF;
+    width: 100vw;
+    height: 80px;
+}
+
+.copyright {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    position: relative;
+    padding-top: 32px;
+    padding-left: 180px;
+}
+
+.fuckyou {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and  (max-width: 1199px){
+    .GENERALWIDTH{
+        max-width: 960px;
+        margin: 0;
+    }
+    .GENERALMENU{
+        max-width: 993px;
+    }
+    .MINIGENERAL{
+        max-width: 100px;
+    }
+    .GENERALFOOTER {
+        max-width: 100vw;
+    }
+    .home_pic {
+        position: relative;
+        top: -221px;
+        left: -122px;
+        width: 130%;
+        height: 130%;
+    }
+    .infopic {
+        left: 34px;
+    }
+    .image_contact {
+        left: 15px
+    }
+}
