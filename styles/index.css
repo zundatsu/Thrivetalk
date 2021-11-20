@@ -22,7 +22,7 @@ body {
 
 header {
     text-decoration: none;
-    background-image: url(../images/back1.png);
+    background-image: url('../images/back1.png');
     background-size: 73% 840px;
     background-repeat: no-repeat;
     height: 840px;
@@ -35,7 +35,7 @@ header {
 
 @font-face {
     font-family: 'Larsseit'; /*a name to be used later*/
-    src: url(../fonts/Larsseit.ttf); /*URL to font*/
+    src: url('../fonts/Larsseit.ttf'); /*URL to font*/
 }
 
 .cap {
